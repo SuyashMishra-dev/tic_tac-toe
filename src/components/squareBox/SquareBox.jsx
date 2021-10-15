@@ -3,7 +3,7 @@ import propTypes from 'prop-types';
 import { SquartButton } from "./SquareBox.style";
 
 const SquareBox = ({ value, onClick }) => (
-    <SquartButton className={`${value}`} onClick={onClick}>
+    <SquartButton data-testid="square-box" className={`${value}`} onClick={onClick}>
       {value}
     </SquartButton>
 );

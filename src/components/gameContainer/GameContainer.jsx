@@ -48,7 +48,7 @@ const GameContainer = () => {
       <GameBoard squares={history[stepNumber]} onClick={handleClick} />
       <GridRow justifyContent="space-between">
         <Col col={6}>
-          <Button disabled={disableUndo} p="5px 10px" fontSize="small_font" color="text" background="body" borderColor="neutral_grey" backgroundOpacity={30} onClick={() => unDoStep(stepNumber - 1)}>
+          <Button data-testid="Undo" disabled={disableUndo} p="5px 10px" fontSize="small_font" color="text" background="body" borderColor="neutral_grey" backgroundOpacity={30} onClick={() => unDoStep(stepNumber - 1)}>
             UnDo <img  alt="undo" src='./undo.svg' height="10px" />
           </Button>
         </Col>
