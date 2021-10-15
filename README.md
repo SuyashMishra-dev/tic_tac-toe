@@ -26,6 +26,8 @@ Tic-Tac-Toe is a game in which two players seek in alternate turns to complete a
 - [Github](https://github.com/) - Version control software
 - [Netlify](https://www.netlify.com/) - Static web hosting
 
+- Deployment logs
+![Deployment log](https://github.com/SuyashMishra-dev/suyashmishra-dev.github.io/blob/main/deployed_log.png?raw=true)
 
 ## App Features
 
