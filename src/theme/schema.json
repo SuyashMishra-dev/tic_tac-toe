@@ -1,0 +1,58 @@
+{
+  "data": {
+    "light": {
+      "id": "T_001",
+      "name": "Light",
+      "colors": {
+        "body": "#FFFFFF",
+        "text": "#000000",
+        "border_color": "#4fb472",
+        "dark_blue": "#001E82",
+        "light_blue": "#D8EFFE",
+        "dark_green": "#0fb839",
+        "my_red": "#f70808"
+      },
+      "fonts": {
+        "font_size": {
+          "heavy_font": "32px",
+          "medium_font": "16px",
+          "below_small_font": "14px",
+          "small_font": "12px",
+          "smallest_font": "10px"
+        },
+        "font_weight": {
+          "bolder_font": 800,
+          "bold_font": 700,
+          "normal_font": 400
+        }
+      }
+    },
+    "dark": {
+      "id": "T_002",
+      "name": "Dark",
+      "colors": {
+        "body": "#000000",
+        "text": "#FFFFFF",
+        "border_color": "#d9f867",
+        "dark_blue": "#c2a920",
+        "light_blue": "#a59505",
+        "dark_green": "#42e910",
+        "my_red": "#f77c08"
+      },
+      "fonts": {
+        "font_size": {
+          "heavy_font": "32px",
+          "medium_font": "16px",
+          "below_small_font": "14px",
+          "small_font": "12px",
+          "smallest_font": "10px"
+        },
+        "font_weight": {
+          "bolder_font": 800,
+          "bold_font": 700,
+          "normal_font": 400
+        }
+      }
+    }
+  }
+}

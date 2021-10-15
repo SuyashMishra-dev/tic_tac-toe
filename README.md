@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo Link 
+* [Project live link]()
 
-## Available Scripts
 
-In the project directory, you can run:
+### Description 
+Tic-Tac-Toe is a game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's drawn in the spaces of a grid of nine squares; noughts and crosses
 
-### `yarn start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  * [Tech and Libraries](#techandlibraries)
+  * [App Features](#features)
+  * [Installation](#installation)
+  * [Contacts](#contacts)
+  * [License](#license)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Tech and Libraries
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ReactJS](http://reactjs.org) - HTML enhanced for web apps!
+- [Testing](https://testing-library.com/docs/react-testing-library/intro/) - For React Component Unit Testing
+- [Styled Components](https://styled-components.com/docs) - Components library for Reactjs
+- [Github](https://github.com/) - Version control software
+- [Netlify](https://www.netlify.com/) - Static web hosting
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## App Features
 
-### `yarn eject`
+- A game board shown with nine empty blocks.
+![Initial Screen](https://github.com/SuyashMishra-dev/suyashmishra-dev.github.io/blob/main/open_light.png?raw=true)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Switch button to dark mode.
+![Dark Mode](https://github.com/SuyashMishra-dev/suyashmishra-dev.github.io/blob/main/open_dark.png?raw=true)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Two differents user can select the option of `X` and `O` while click on the blocks.
+ ![While play game](https://github.com/SuyashMishra-dev/suyashmishra-dev.github.io/blob/main/play_dark.png?raw=true)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- If no one is winner and all box is filled there is a popup of game over with a button for start again.
+ ![Game over screen](https://github.com/SuyashMishra-dev/suyashmishra-dev.github.io/blob/main/game_over.png?raw=true)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Once any player wins, a popup shown with the symbol of `X` or `O`. Also a button to start again.
+![Game over screen](https://github.com/SuyashMishra-dev/suyashmishra-dev.github.io/blob/main/winner.png?raw=true)
 
-## Learn More
+- Written unit testing to test react components.
+![Unit Testing]()
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Clone the repo
+##### Run below command in terminal
+```
+git clone https://github.com/SuyashMishra-dev/tic_tac_toe.git
+```
+### Go inside directory
+```
+cd tic_tac_toe
+```
+### Install dependencies
+```
+npm install --save
+```
+### Start server
+```
+npm start
+```
 
-### Analyzing the Bundle Size
+#### your server will be start running on (http://localhost:3000) port
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### To run test case
+```
+npm run test
+```
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Out of Scope
+-  Progressive web application (PWA)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Contacts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Suyash Mishra [LinkedIn-Suyash](https://www.linkedin.com/in/suyash-mishra00) - [<suyashmishra143143@gmail.com>]
 
-### `yarn build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT
+
+**Free Application!**
+

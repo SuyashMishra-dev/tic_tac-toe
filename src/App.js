@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import { ThemeProvider } from 'styled-components';
+import { useTheme } from './theme/useTheme';
+import { GlobalStyles } from './theme/GlobalStyles';
+import GameContainer from './components/gameContainer/GameContainer';
+import ChangeTheme from './components/changeTheme/ChangeTheme';
 
-function App() {
+const App = () => {
+  const [themeValue, setThemeValue] = useState(false);
+  const { theme, themeLoaded, setMode } = useTheme('light');
+  const [selectedTheme, setSelectedTheme] = useState(theme);
+  useEffect(() => {
+    setSelectedTheme(theme);
+  }, [theme, themeLoaded]);
+  useEffect(() => {
+    setMode(themeValue ? 'dark' : 'light');
+  }, [themeValue, setMode]);
+  const changeTheme = (event) => {
+    setThemeValue(!themeValue);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {themeLoaded && (
+        <ThemeProvider theme={selectedTheme}>
+          <GlobalStyles />
+          <ChangeTheme changeTheme={changeTheme} />
+          <GameContainer />
+        </ThemeProvider>
+      )}
+    </>
   );
-}
+};
 
 export default App;
