@@ -11,7 +11,7 @@ Tic-Tac-Toe is a game in which two players seek in alternate turns to complete a
 
 
   * [Tech and Libraries](#techandlibraries)
-  * [App Features](#features)
+  * [App Features](#appfeatures)
   * [Installation](#installation)
   * [Contacts](#contacts)
   * [License](#license)
