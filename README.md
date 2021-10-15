@@ -54,7 +54,7 @@ Tic-Tac-Toe is a game in which two players seek in alternate turns to complete a
 ### Clone the repo
 ##### Run below command in terminal
 ```
-git clone https://github.com/SuyashMishra-dev/tic_tac_toe.git
+git clone https://github.com/SuyashMishra-dev/tic_tac-toe.git
 ```
 ### Go inside directory
 ```
