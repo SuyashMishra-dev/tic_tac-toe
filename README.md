@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
 
 ## Demo Link 
-* [Project live link]()
+* [Project live link](https://61696d2a0a7bffc13acae047--peaceful-haibt-485aed.netlify.app/)
 
 
 ### Description 
@@ -47,7 +47,7 @@ Tic-Tac-Toe is a game in which two players seek in alternate turns to complete a
 ![Game over screen](https://github.com/SuyashMishra-dev/suyashmishra-dev.github.io/blob/main/winner.png?raw=true)
 
 - Written unit testing to test react components.
-![Unit Testing]()
+![Unit Testing](https://github.com/SuyashMishra-dev/suyashmishra-dev.github.io/blob/main/test_cases.png?raw=true)
 
 
 
