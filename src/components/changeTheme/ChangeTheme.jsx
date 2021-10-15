@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import propTypes from 'prop-types';
 
 const ChangeTheme = ({ changeTheme }) => (
   <div className="checkbox-container">
@@ -15,4 +16,9 @@ const ChangeTheme = ({ changeTheme }) => (
   </div>
 );
 
-export default ChangeTheme
+ChangeTheme.propTypes = {
+  changeTheme: propTypes.func,
+};
+
+
+export default ChangeTheme;

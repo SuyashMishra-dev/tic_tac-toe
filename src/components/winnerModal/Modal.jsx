@@ -1,4 +1,5 @@
 import React from 'react';
+import propTypes from 'prop-types';
 import { CrossButton, H3, Image, ModalBackground, ModalContainer } from './Modal.style';
 
 const WinnerModal = ({ winner, resetGame, isOver }) => {
@@ -16,7 +17,14 @@ const WinnerModal = ({ winner, resetGame, isOver }) => {
         )}
       </ModalContainer>
     </ModalBackground>
-  )
-}
+  );
+};
+
+WinnerModal.propTypes = {
+  winner: propTypes.string,
+  isOver: propTypes.bool,
+  resetGame: propTypes.func,
+};
+
 
 export default WinnerModal;

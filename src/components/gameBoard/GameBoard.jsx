@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from 'prop-types';
 import { BoardBox } from "./GameBoard.style";
 import SquareBox from "../squareBox/SquareBox";
 
@@ -9,5 +10,10 @@ const GameBoard = ({ squares, onClick }) => (
     ))}
   </BoardBox>
 );
+GameBoard.propTypes = {
+  squares: propTypes.array,
+  onClick: propTypes.func,
+};
+
 
 export default GameBoard;
