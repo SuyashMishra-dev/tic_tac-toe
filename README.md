@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
 
 ## Demo Link 
-* [Project live link](https://61696d2a0a7bffc13acae047--peaceful-haibt-485aed.netlify.app/)
+* [Project live link](https://tic-tac-toe-22.netlify.app/)
 
 
 ### Description 
