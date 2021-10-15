@@ -58,7 +58,7 @@ git clone https://github.com/SuyashMishra-dev/tic_tac-toe.git
 ```
 ### Go inside directory
 ```
-cd tic_tac_toe
+cd tic_tac-toe
 ```
 ### Install dependencies
 ```
